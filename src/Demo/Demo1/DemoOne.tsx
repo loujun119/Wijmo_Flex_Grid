@@ -5,12 +5,12 @@ import "./DemoOne.css";
 import { data } from "./data";
 import "@grapecity/wijmo.styles/wijmo.css";
 import { initializeGrid } from "./methodA";
-export const addButton = () => {
-  //   var bt: any = document.getElementById("btn");
-  //   bt.addEventListener("click", () => {
-  alert("test");
-  //   });
-};
+// export const addButton = () => {
+//   //   var bt: any = document.getElementById("btn");
+//   //   bt.addEventListener("click", () => {
+//   alert("test");
+//   //   });
+// };
 function DemoOne() {
   return (
     <div className="container-fluid">
@@ -39,7 +39,8 @@ function DemoOne() {
       <Link to="/">
         <h3>Back Home Page</h3>
       </Link>
-      <button id="btn" className="tt" onClick={addButton}>
+      <button id="btn" className="tt">
+        {/* // onClick={addButton} */}
         <h2>test</h2>
       </button>
     </div>
