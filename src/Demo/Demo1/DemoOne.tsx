@@ -32,7 +32,7 @@ function DemoOne() {
           showSort={true}
           // allowSorting={false}
           alternatingRowStep={1}
-          headersVisibility="Column"
+          // headersVisibility="Column"
         ></wjGrid.FlexGrid>
       </div>
 

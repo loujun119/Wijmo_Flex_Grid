@@ -1,3 +1,5 @@
+import * as wjGrid from "@grapecity/wijmo.react.grid";
+
 export const initializeGrid = (flex: any) => {
   var _this = this;
   // add 'edit button' to row header cells
@@ -13,7 +15,8 @@ export const initializeGrid = (flex: any) => {
   flex.addEventListener(flex.hostElement, "click", (e: any) => {
     let ht = flex.hitTest(e);
     if (ht.panel == flex.rowHeaders) {
-      alert("test");
+      const data: number = -10;
+      alert("test" + data);
     }
   });
 };
