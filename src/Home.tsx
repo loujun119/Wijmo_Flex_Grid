@@ -7,6 +7,9 @@ function Home() {
       <Link to="/demo1">
         <h4>Demo 1</h4>
       </Link>
+      <Link to="/demo3">
+        <h4>Demo 3</h4>
+      </Link>
 
       <h1>Hello World</h1>
     </div>
